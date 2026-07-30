@@ -3,7 +3,6 @@ app = FastAPI()
 @app.get("/")
 
 def home():
-    
     return{
         "Message":"HEllo from Fastapi"
     }
