@@ -7,5 +7,6 @@ app = FastAPI()
 def home():
     
     return{
+        
         "Message":"HEllo from Fastapi"
     }
